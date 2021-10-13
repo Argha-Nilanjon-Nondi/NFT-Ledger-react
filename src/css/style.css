@@ -1,0 +1,22 @@
+.no-decoration {
+  text-decoration: none;
+  color: black;
+}
+
+.custom-flex {
+}
+
+.copy-btn {
+  float: right;
+}
+
+.copy-textarea {
+  position: absolute;
+  z-index: -1;
+}
+
+@media screen and (max-width: 1000px) {
+  .custom-flex {
+    flex-direction: column;
+  }
+}
