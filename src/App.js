@@ -1,14 +1,21 @@
-import React, { Fragment,Component } from "react";
-import { Nav, Navbar, NavDropdown, Container,Button,Form } from "react-bootstrap";
+import React, { Fragment, Component } from "react";
+import {
+  Nav,
+  Navbar,
+  NavDropdown,
+  Container,
+  Button,
+  Form,
+} from "react-bootstrap";
 import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 import VerifyNFT from "./components/VerifyNFT";
 import VerifyUser from "./components/VerifyUser";
 import VerifySignature from "./components/VerifySignature";
 import AddNFT from "./components/AddNFT";
-import DetailNFT from "./components/DetailNFT"
+import DetailNFT from "./components/DetailNFT";
 import TransferNTF from "./components/TransferNFT";
 import Own from "./components/Own";
-import {} from "./css/style.css"
+import {} from "./css/style.css";
 
 export default class App extends Component {
   constructor(props) {
@@ -16,12 +23,21 @@ export default class App extends Component {
 
     this.state = {
       publicKey: "",
+      completeStatus: false,
     };
   }
 
   handleField = (event) => {
     this.setState({
+      completeStatus: false,
       [event.target.name]: event.target.value,
+    });
+  };
+
+  addKey = () => {
+    localStorage.setItem("public_key", this.state.publicKey);
+    this.setState({
+      completeStatus: true,
     });
   };
 
@@ -120,11 +136,13 @@ export default class App extends Component {
                 <div className="modal-body">
                   <Form className="px-1 py-1 mt-4">
                     <Form.Group className="mb-3 row" controlId="formBasicEmail">
-                      <Form.Label className="col-lg-2">Public Key</Form.Label>
+                      <Form.Label className="col-lg-1 col-12">
+                        Public Key
+                      </Form.Label>
                       <Form.Control
                         as="textarea"
                         rows={5}
-                        className="col"
+                        className="col-lg-11 col-12"
                         type="text"
                         value={this.state.publicKey}
                         name="publicKey"
@@ -133,11 +151,16 @@ export default class App extends Component {
                     </Form.Group>
                   </Form>
                 </div>
+                {this.state.completeStatus === true ? (
+                  <p className="text-center">Public key is added</p>
+                ) : (
+                  ""
+                )}
                 <div className="modal-footer">
                   <button
                     type="button"
                     className="btn btn-success"
-                    onClick={()=>localStorage.setItem("public_key",this.state.publicKey)}
+                    onClick={this.addKey}
                   >
                     Set
                   </button>
@@ -182,6 +205,3 @@ export default class App extends Component {
     );
   }
 }
-
- 
-
