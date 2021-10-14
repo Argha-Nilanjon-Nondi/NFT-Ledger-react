@@ -3,11 +3,25 @@
   color: black;
 }
 
-.custom-flex {
+.btn-center {
+  display: block !important;
+  margin:0 auto !important;
 }
 
 .copy-btn {
   float: right;
+}
+
+.custom-modal{
+  width: 100% !important;
+}
+
+.custom-modal-dialog{
+    max-width: 100% !important;
+}
+
+.custom-modal-header{
+  word-break: break-all;
 }
 
 .copy-textarea {

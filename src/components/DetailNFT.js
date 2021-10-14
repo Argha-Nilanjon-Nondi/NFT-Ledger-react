@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from "react";
-import { Container, Button, Form, Badge } from "react-bootstrap";
+import { Container, Button, Form } from "react-bootstrap";
 import AlertDismissible from "./AlertDismissible";
 import {} from "../css/style.css";
 import Loading from "./Loading";
@@ -18,6 +18,7 @@ export default class DetailNTF extends Component {
       signature: "",
       sellerPublicKey:"",
       buyerPublicKey:"",
+      eventDate:"",
       copyPanel: false
     };
   }
@@ -59,7 +60,8 @@ export default class DetailNTF extends Component {
             signature: data.data.signature,
             sellerPublicKey:data.data.seller_public_key,
             buyerPublicKey:data.data.buyer_public_key,
-            fileLocation:data.data.file_location
+            fileLocation:data.data.file_location,
+            eventDate:data.data.event_date
           });
         }
 
@@ -161,6 +163,15 @@ export default class DetailNTF extends Component {
                       className="col"
                       type="url"
                       value={this.state.fileLocation}
+                    />
+                  </Form.Group>
+
+                  <Form.Group className="mb-3 row" controlId="formBasicEmail">
+                    <Form.Label className="col-lg-2">Date of Event</Form.Label>
+                    <Form.Control
+                      className="col"
+                      type="datetime"
+                      value={this.state.eventDate}
                     />
                   </Form.Group>
                   
