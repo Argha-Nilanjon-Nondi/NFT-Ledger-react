@@ -17,14 +17,14 @@
 <br>
 
 ## Related links
-https://www.w3schools.com/html/
-https://www.w3schools.com/css/
-https://developer.mozilla.org/en-US/docs/Web/JavaScript
-https://reactjs.org/
-https://reactrouter.com/
-https://www.npmjs.com/package/axios
-https://getbootstrap.com/docs/5.0/getting-started/introduction/
-https://fontawesome.com/
+- [https://www.w3schools.com/html/](https://www.w3schools.com/html/)
+- [https://www.w3schools.com/css/](https://www.w3schools.com/css/)
+- [https://developer.mozilla.org/en-US/docs/Web/JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [https://reactjs.org/](https://reactjs.org/)
+- [https://reactrouter.com/](https://reactrouter.com/)
+- [https://www.npmjs.com/package/axios](https://www.npmjs.com/package/axios)
+- [https://getbootstrap.com/docs/5.0/getting-started/introduction/](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+- [https://react-bootstrap.github.io/](https://react-bootstrap.github.io/)
 
 <br>
 
@@ -38,7 +38,7 @@ npm start
 <br>
 
 ## Installation
-### you need to setup this [NFT-Ledger-API](https://github.com/Argha-Nilanjon-Nondi/student-management-system) repo as a backend in order to run this this repo 
+### you need to setup this [NFT-Ledger-API](https://github.com/Argha-Nilanjon-Nondi/NFT-Ledger-api) repo as a backend in order to run this this repo 
 
 <br>
 
