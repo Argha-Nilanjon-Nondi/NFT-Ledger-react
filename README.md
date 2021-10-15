@@ -38,93 +38,40 @@ npm start
 <br>
 
 ## Installation
-### you need to setup this [student-management-system](https://github.com/Argha-Nilanjon-Nondi/student-management-system) repo as a backend in order to run this this repo 
+### you need to setup this [NFT-Ledger-API](https://github.com/Argha-Nilanjon-Nondi/student-management-system) repo as a backend in order to run this this repo 
 
 <br>
 
-## Admin
-### To login go to http://localhost:3000/login/
-```email
-email: admin@gmail.com
-password: avunix9143
-```
-![AppScreenshort](https://github.com/Argha-Nilanjon-Nondi/student-management-system-php-react/blob/master/screenshorts/admin_login.png?raw=true)
+## Screenshorts
+### Home and profile
+![AppScreenshort](https://github.com/Argha-Nilanjon-Nondi/NFT-Ledger-react/blob/master/screenshorts/home.jpg?raw=true)
 
-### Admin home page
-![AppScreenshort](https://github.com/Argha-Nilanjon-Nondi/student-management-system-php-react/blob/master/screenshorts/admin_home.png?raw=true)
+### Add NFT
+![AppScreenshort](https://github.com/Argha-Nilanjon-Nondi/NFT-Ledger-react/blob/master/screenshorts/add_nft.jpg?raw=true)
 
-### Add a teacher
-![AppScreenshort](https://github.com/Argha-Nilanjon-Nondi/student-management-system-php-react/blob/master/screenshorts/admin_teacher_add.png?raw=true)
+### Profile data
+![AppScreenshort](https://github.com/Argha-Nilanjon-Nondi/NFT-Ledger-react/blob/master/screenshorts/data_user.jpg?raw=true)
 
-### Update a teacher
-![AppScreenshort](https://github.com/Argha-Nilanjon-Nondi/student-management-system-php-react/blob/master/screenshorts/admin_teacher_update.png?raw=true)
+### Detail of NFT
+![AppScreenshort](https://github.com/Argha-Nilanjon-Nondi/NFT-Ledger-react/blob/master/screenshorts/detail_nft.jpg?raw=true)
 
-### View teacher's profile
-![AppScreenshort](https://github.com/Argha-Nilanjon-Nondi/student-management-system-php-react/blob/master/screenshorts/admin_teacher_profile.png?raw=true)
+### Set public key
+![AppScreenshort](https://github.com/Argha-Nilanjon-Nondi/NFT-Ledger-react/blob/master/screenshorts/set_public_key.jpg?raw=true)
 
-### Change password
-![AppScreenshort](https://github.com/Argha-Nilanjon-Nondi/student-management-system-php-react/blob/master/screenshorts/admin_change_password.png?raw=true)
-<br>
+### See data of NFT of profile
+![AppScreenshort](https://github.com/Argha-Nilanjon-Nondi/NFT-Ledger-react/blob/master/screenshorts/show_data_nft.jpg?raw=true)
 
-## Teacher
-### To login go to http://localhost:3000/login/
-```email
-email: teacher0@gmail.com
-password: avunix9143
-```
-![AppScreenshort](https://github.com/Argha-Nilanjon-Nondi/student-management-system-php-react/blob/master/screenshorts/teacher_login.png?raw=true)
+### Transfer NFT
+![AppScreenshort](https://github.com/Argha-Nilanjon-Nondi/NFT-Ledger-react/blob/master/screenshorts/transfer_nft.jpg?raw=true)
 
-### Own profile
-![AppScreenshort](https://github.com/Argha-Nilanjon-Nondi/student-management-system-php-react/blob/master/screenshorts/teacher_profile_own.png?raw=true)
+### Verify user chain 
+![AppScreenshort](https://github.com/Argha-Nilanjon-Nondi/NFT-Ledger-react/blob/master/screenshorts/verify_user_chain.jpg?raw=true)
 
-### Add a student
-![AppScreenshort](https://github.com/Argha-Nilanjon-Nondi/student-management-system-php-react/blob/master/screenshorts/teacher_add_student.png?raw=true)
+### Verify nft chain 
+![AppScreenshort](https://github.com/Argha-Nilanjon-Nondi/NFT-Ledger-react/blob/master/screenshorts/verify_nft_chain.jpg?raw=true)
 
-### Add a checkin
-![AppScreenshort](https://github.com/Argha-Nilanjon-Nondi/student-management-system-php-react/blob/master/screenshorts/teacher_add_checkin.png?raw=true)
-
-### Add a checkout
-![AppScreenshort](https://github.com/Argha-Nilanjon-Nondi/student-management-system-php-react/blob/master/screenshorts/teacher_add_checkout.png?raw=true)
-
-### Update check
-![AppScreenshort](https://github.com/Argha-Nilanjon-Nondi/student-management-system-php-react/blob/master/screenshorts/teacher_update_check.png?raw=true)
-
-### Update student profile
-![AppScreenshort](https://github.com/Argha-Nilanjon-Nondi/student-management-system-php-react/blob/master/screenshorts/teacher_update_student.png?raw=true)
-
-### Delete student profile
-![AppScreenshort](https://github.com/Argha-Nilanjon-Nondi/student-management-system-php-react/blob/master/screenshorts/teacher_delete_student.png?raw=true)
-
-### Watch student's list
-![AppScreenshort](https://github.com/Argha-Nilanjon-Nondi/student-management-system-php-react/blob/master/screenshorts/teacher_student_list.png?raw=true)
-
-### Watch student's break list and change it's status
-![AppScreenshort](https://github.com/Argha-Nilanjon-Nondi/student-management-system-php-react/blob/master/screenshorts/teacher_breaklist.png?raw=true)
-
-### Change password
-![AppScreenshort](https://github.com/Argha-Nilanjon-Nondi/student-management-system-php-react/blob/master/screenshorts/teacher_change_password.png?raw=true)
-
-<br>
-
-## Student
-### To login go to http://localhost:3000/login/
-```email
-email: student10@gmail.com
-password: avunix9143
-```
-![AppScreenshort](https://github.com/Argha-Nilanjon-Nondi/student-management-system-php-react/blob/master/screenshorts/student_login.png?raw=true)
-
-### View own profile
-![AppScreenshort](https://github.com/Argha-Nilanjon-Nondi/student-management-system-php-react/blob/master/screenshorts/student_profile.png?raw=true)
-
-### Break list
-![AppScreenshort](https://github.com/Argha-Nilanjon-Nondi/student-management-system-php-react/blob/master/screenshorts/student_break_list.png?raw=true)
-
-### Request a break
-![AppScreenshort](https://github.com/Argha-Nilanjon-Nondi/student-management-system-php-react/blob/master/screenshorts/student_request_break.png?raw=true)
-
-### Change password
-![AppScreenshort](https://github.com/Argha-Nilanjon-Nondi/student-management-system-php-react/blob/master/screenshorts/student_change_password.png?raw=true)
+### Verify a signature
+![AppScreenshort](https://github.com/Argha-Nilanjon-Nondi/NFT-Ledger-react/blob/master/screenshorts/verify_signature.jpg?raw=true)
 
 <br>
 
